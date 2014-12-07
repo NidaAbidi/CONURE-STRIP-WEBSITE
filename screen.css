@@ -1,0 +1,48 @@
+body {
+	background-color: #FFFFFF;
+	color: #efefef;
+	font-family: Futura, sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+.img header {
+	height: 50%;
+}
+
+.wrapper {
+
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	margin-bottom: 400px;
+	margin-top: 60px;
+	margin-left: 95px;
+	margin-right: 10px;
+}
+
+li {
+	float: left;
+
+}
+
+footer {
+	clear: both;
+	
+
+
+@media all and (min-width: 35.5em){
+	.wrapper {
+		width: 28.5em;
+	}
+}
+
+@media all and (min-width: 62.5em){
+	.wrapper {
+		width: 37.5em;
+	}
+}
